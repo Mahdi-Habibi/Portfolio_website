@@ -1,0 +1,21 @@
+{
+  "name": "portfolio_website",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "concurrently": "^9.0.1",
+    "next": "14.2.15",
+    "react": "^18",
+    "react-dom": "^18"
+  },
+  "scripts": {
+  "start": "concurrently \"npm run dev --prefix frontend\" \"node backend/index.js\""
+}
+
+}
