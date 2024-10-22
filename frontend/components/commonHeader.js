@@ -2,7 +2,7 @@
 
 const loadHeader = () => {
     // Create the header element
-    const header = document.createElement('header');
+    const header = document.querySelector('header');
 
     // Insert HTML for the navigation
     header.innerHTML = `
@@ -16,9 +16,6 @@ const loadHeader = () => {
             </nav>
         </div>
     `;
-
-    // Insert the header before the first element in the body
-    document.body.prepend(header);
 };
 
 // Add the event listener to run when the DOM is fully loaded

@@ -365,4 +365,12 @@ footer {
 .footer-rights {
   display: block;
   font-size: 14px;
+}
+
+/* blog page */
+/* blog header */
+.blog-header {
+  margin: 79px 0 55px;
+  font-size: 44px;
+  font-family: "Heebo-bold";
 }/*# sourceMappingURL=styles.css.map */
